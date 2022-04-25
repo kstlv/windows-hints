@@ -35,3 +35,12 @@ Get MD5 checksum of the file `C:\foo.txt`:
 ```powershell
 Get-FileHash C:\foo.txt -Algorithm MD5 | Format-List
 ```
+
+### Disable UAC notifications
+
+> Don't do this if you don't want to risk your computer's security!
+
+If you are tired of pop-ups warning about the safety of performing an action, then you can turn them off.
+
+1. `UserAccountControlSettings` in cmd or powershell.
+2. Set "Never notify"
