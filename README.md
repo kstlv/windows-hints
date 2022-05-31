@@ -2,6 +2,10 @@
 
 Here you will find useful commands, tutorials, guides, tips and other stuff to make the process of using Windows more comfortable.
 
+## Registry
+
+`.reg` files are located in the `reg` folder. Run the file you need.
+
 ## Useful commands
 
 Commands that can only be executed in `powershell.exe` are marked. The rest must work in `cmd.exe`.
